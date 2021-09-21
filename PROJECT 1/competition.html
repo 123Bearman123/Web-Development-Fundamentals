@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en-IE">
+	<head>
+		<meta charset="utf-8">
+		<title>Competition</title>
+		<link rel="stylesheet" href="styles.css">
+	</head>
+	
+	<body>
+		<header>
+		<h1>Competition</h1>
+		</header>
+		<main>
+			<nav>
+				<a href="index.html">Home</a>
+				<a href="contact.html">Contact</a>
+				<a href="about.html">About us</a>
+				<a href="competition.html">Competition</a>
+				<a href="resources.html">Resources</a>
+			</nav>
+			<form method="get" action="https://webdevcit.com/displayvalues.php" target = "_blank">
+				<p>
+					<label>First name:</label><br><input type="text" name="firstname" required>
+					<br>
+					<label>Last name:</label><br><input type="text" name="lastname" required>
+					<br>
+					<label>Date of Birth:</label><br><input type="text" name="text" required>
+					<br>
+					<label>Email Address:</label><br><input type="email" name="Email" required>			
+					<br>
+				</p>
+				<p>
+					Choice of Category:
+					<select name="enviroment">
+						<option value="reduce" selected>Reduce</option>
+						<option value="reuse">Reuse</option>
+						<option value="recycle">Recycle</option>
+					</select>
+				</p>
+				<p>
+					Competition Entry Detail:
+					<br>		
+					<textarea name="competition" cols="80" rows="5" placeholder="Type here"></textarea>
+				</p>
+				<p>
+					<input type="file" name="picture" accept="image/*">
+				</p>
+				<p>
+					<input type ="submit" value="submit">
+					<input type ="reset" value="cancel">
+				</p>
+			</form>
+		</main>
+		<footer>
+			<p>Copyright &copy; DYLAN BEARMAN<br>
+			Email: dylan.bearman@mycit.ie</p>
+	   </footer>
+	</body>
+</html>	
+		

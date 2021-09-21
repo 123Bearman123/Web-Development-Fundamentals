@@ -1,0 +1,121 @@
+body main nav a {
+text-decoration: none;
+background-color: #191970;	
+font-family: "Times New Roman", Georgia,  serif;
+color: white;
+border: 1px outset none;
+width: 10%;
+text-align: center;
+display: inline-block;
+border-style: inset;
+position: sticky;
+min-width: 80px;
+margin-bottom:1px;
+}
+
+header{
+background-color: #191970;
+color: #E6E6FA;
+margin-bottom: 1px;
+margin-top: 1px;
+
+}
+h1{		font-family: "Times New Roman", Georgia,  serif;
+		color: white;
+}
+h2{
+background-color: #AEAED4;
+color: #191970;
+}
+h4
+{color: black;
+margin-top: 1px;
+font-family: "Times New Roman", Georgia,  serif;
+}
+small{
+font-size: 80% 
+}
+*{
+box-sizing: border-box;
+}
+.column {
+float: left;
+width: 33.33%;
+padding: 10px;
+height: 530px; 
+}
+
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+
+#customers {
+font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+border-collapse: collapse;
+width: 100%;
+}
+
+#customers td, #customers th {
+border: 1px solid #ddd;
+padding: 8px;
+}
+
+#customers tr:hover{
+background-color: grey;
+}
+
+#customers th{
+padding-top: 12px;
+padding-bottom: 12px;
+text-align: left;
+background-color: #191970;
+color: white;
+}     
+
+iframe{
+float: right;
+}
+.twitter-timeline{
+float: left;
+}
+
+.maps{
+float: right;
+}
+
+.row{
+background-color: white;
+margin-bottom: 100px;
+position: absolute;
+min-height: 80px;
+border:5px solid #191970;
+
+}
+.utube{float: left;
+border:5px solid #191970;
+
+}
+a{
+text-decoration: none;
+font-family: "Times New Roman", Georgia,  serif;
+color: black;
+
+}
+
+header{
+text-align: center;	
+}
+
+body{
+background-color: #f2f2f2;
+}
+
+footer {
+width: 100%;
+position:absolute;
+bottom: 0px;
+text-align: center;
+background-color: #191970;
+}
